@@ -3,7 +3,6 @@ var app = express();
 app.use(express.static('public'))
 
 const path = require('path')
-const filePath = path.resolve(__dirname, 'index.html')
 
 app.get('/html', function(req, res){
    const filePath = path.resolve(__dirname, 'index.html')
