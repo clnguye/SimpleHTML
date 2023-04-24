@@ -1,5 +1,6 @@
 var express = require('express');
 var app = express();
+app.use(express.static('public'))
 
 const path = require('path')
 const filePath = path.resolve(__dirname, 'index.html')
