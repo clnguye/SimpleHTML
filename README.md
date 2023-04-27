@@ -6,3 +6,4 @@ This repository is built step by step in the tutorial.
 Add this line in Git-Hub
 Add this second line in Git-Hub
 Add this third line from my desktop
+Add a new line from 'update-readme' branch created locally
